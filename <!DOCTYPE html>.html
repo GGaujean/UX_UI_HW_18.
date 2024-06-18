@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+            font-family: 'TwCenW01-Medium';
+            src: url('path/to/TwCenW01-Medium.woff') format('woff');
+        }
+        body {
+            font-family: 'TwCenW01-Medium', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        section {
+            background-color: #0A100D; /* Background color */
+            color: #B9BAA3; /* Text color */
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #DCD5C9; /* Header color */
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .skill {
+            background: #DCD5C9; /* Card background color */
+            color: #A22C29; /* Card text color */
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px;
+            flex: 1 1 300px;
+            max-width: 300px;
+            text-align: center;
+        }
+        .skill img {
+            max-width: 100px;
+            height: auto;
+        }
+        .skill h1 {
+            color: #902923; /* Skill title color */
+            font-size: 1.5em;
+            margin: 15px 0;
+        }
+        .skill p {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+        @media (max-width: 768px) {
+            .skills-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<section>
+    <!-- Main Section containing the UX Skills -->
+    <h1>My UX Skills</h1>
+    <div class="skills-container">
+        <!-- Skill 1 -->
+        <div class="skill">
+            <img src="path/to/your/image1.png" alt="Skill 1 Image">
+            <h1>Wireframing</h1>
+            <p>I create detailed wireframes to map out user experiences and interface designs, ensuring clarity and functionality from the start.</p>
+        </div>
+        <!-- Skill 2 -->
+        <div class="skill">
+            <img src="path/to/your/image2.png" alt="Skill 2 Image">
+            <h1>User Research</h1>
+            <p>Through comprehensive user research, I gather valuable insights that inform design decisions and enhance user satisfaction.</p>
+        </div>
+        <!-- Skill 3 -->
+      <div class="skill">
+  <img src="path/to/your/image3.png" alt="Skill 3 Image">
+       <h1>Prototyping</h1>
+ <p>I develop interactive prototypes to test and refine user interactions, ensuring a seamless and intuitive final product.</p>
+ </div>
+  </div>
+</section>
+
+</body>
+</html>
